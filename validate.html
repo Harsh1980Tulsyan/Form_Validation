@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Form Validation
+</title>
+<script src="validate.js"></script>
+<style>
+#demo,#demo1,#demo2,#demo3{color:red;}
+</style>
+</head>
+<body>
+<form  name="myform" action="registration.php" method="get" onsubmit="return validateform()">
+Username :<input type="text" name="username"><span id="demo"></span><br><br>
+Password:<input type="password" name="pass"> <span id="demo1"></span><br><br>
+Reenter-Password:<input type="password" name="pass1"> <span id="demo2"></span><br><br>
+Email:<input type="text" name="mailid" ><span id="demo3"></span><br><br>
+<input type="submit" value="Register">
+</form>
+</body>
+</html>
